@@ -1,5 +1,6 @@
+# Same as p18
 l = []
-with open("p18.txt", 'r') as f:
+with open("p67.txt", 'r') as f:
     for line in f.readlines():
         line = line
         l.append(line[:len(line)- 1].split(' '))
